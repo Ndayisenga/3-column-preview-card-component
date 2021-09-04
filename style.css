@@ -1,0 +1,70 @@
+* {
+    box-sizing: box-border;
+    margin: 0;
+    padding: 0;
+}
+.container {
+margin: 10px;
+padding-top: 100px;
+display: flex;
+flex-wrap: wrap;
+}
+.par {
+    margin: 10px;
+}
+.border1 {
+    border-color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px;
+    color: orange;
+    
+}
+.border2 {
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px;
+    color:aqua;
+}
+.border3 {
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px;
+    color: green;
+    
+}
+.border1:hover {
+    color: grey;
+}
+.border2:hover {
+    color: grey;
+}
+.border3:hover {
+    color: grey;
+}
+.sedans, .suvs, .luxury {
+    cursor: pointer;
+    border-radius: 10px ; 
+    height: 200px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    margin: 1px;
+    padding: 30px;
+}
+.sedans {
+    background-color: orange ;  
+    
+}
+.suvs {
+    background-color: aqua;   
+}
+.luxury {
+    background-color: green;   
+}
